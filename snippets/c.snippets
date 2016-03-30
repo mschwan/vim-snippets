@@ -1,0 +1,30 @@
+snippet inc
+	#include <${1}>
+snippet Inc
+	#include "${1}"
+snippet ifndef
+	#ifndef ${1:UNTITLED_H}
+	#define $1
+
+	${0}
+
+	#endif // $1
+snippet main
+	int main(int argc, char *argv[])
+	{
+		${1}
+
+		return 0;
+	}
+snippet if
+	if(${1}) {
+		${2}
+	}
+snippet else
+	else(${1}) {
+		${2}
+	}
+snippet while
+	while(${1}) {
+		${2}
+	}
