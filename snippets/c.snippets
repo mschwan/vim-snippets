@@ -3,12 +3,12 @@ snippet inc
 snippet Inc
 	#include "${1}"
 snippet ifndef
-	#ifndef ${1:UNTITLED_H}
-	#define $1
+	#ifndef ${1:UNTITLED}_H
+	#define $1_H
 
 	${0}
 
-	#endif // $1
+	#endif // $1_H
 snippet main
 	int main(int argc, char *argv[])
 	{
