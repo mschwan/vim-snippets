@@ -27,10 +27,15 @@ snippet else
 		${1}
 	}
 snippet for
-	for(${1:int} ${2:i} = ${3:0}; $2 < ${4:10}; $2++) {
+	for(${1:int} ${2:i} = ${3:0}; $2 < ${4:MAX}; $2++) {
 		${5}
 	}
 snippet while
 	while(${1}) {
 		${2}
 	}
+snippet struct
+	struct ${1:name}
+	{
+		${0}
+	};
