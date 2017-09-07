@@ -12,9 +12,9 @@ snippet ifndef
 snippet def
 	#define ${0}
 snippet main
-	int main(int argc, char *argv[])
+	int main(int argc, char **argv)
 	{
-		${1}
+		${0}
 
 		return 0;
 	}
