@@ -1,5 +1,12 @@
 extends c
 
+snippet ifndef
+	#ifndef ${1:UNTITLED}_H
+	#define $1_H
+
+	${0}
+
+	#endif // $1_H
 snippet namespace
 	namespace ${1:Untitled}
 	{
