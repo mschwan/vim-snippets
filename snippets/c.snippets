@@ -47,7 +47,10 @@ snippet switch
 		break;
 	}
 snippet struct
-	struct ${1:name}
-	{
+	struct ${1:name} {
+		${0}
+	};
+snippet enum
+	enum ${1:name} {
 		${0}
 	};
